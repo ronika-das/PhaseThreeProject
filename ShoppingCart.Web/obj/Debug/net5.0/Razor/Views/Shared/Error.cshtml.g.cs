@@ -13,6 +13,13 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+#line 1 "C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\Views\_ViewImports.cshtml"
+using ShoppingCart.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\Views\Shared\Error.cshtml"
 using ShoppingCart.Models;
 
@@ -20,6 +27,7 @@ using ShoppingCart.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7399eee05b4dc879f9ebf22220b00cfd5b7c1a64", @"/Views/Shared/Error.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"423d4617f05356797d3088a5d5f7613d15710eea", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -151,3 +151,6 @@ C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\obj\De
 C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
 C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
 C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs

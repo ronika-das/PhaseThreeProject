@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShoppingCart.DataAccess.Data;
+using ShoppingCart.DataAccess.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +31,7 @@ namespace ShoppingCart.Web
             {
                 options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]);
             });
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         }
 

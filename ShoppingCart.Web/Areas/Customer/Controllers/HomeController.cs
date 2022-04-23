@@ -1,15 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ShoppingCart.Web.Models;
-using System;
-using System.Collections.Generic;
+using ShoppingCart.Models;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ShoppingCart.Web.Controllers
 {
-    
+
     [Area("Customer")]
     public class HomeController : Controller
     {

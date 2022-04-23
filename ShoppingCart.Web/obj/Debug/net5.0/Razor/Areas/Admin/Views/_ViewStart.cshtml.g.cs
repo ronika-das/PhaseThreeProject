@@ -19,15 +19,8 @@ using ShoppingCart.Web;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\Areas\Admin\Views\_ViewImports.cshtml"
-using ShoppingCart.Web.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Areas/Admin/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"252f8ed6d07a797f320cc5daf13b2caffddc43a0", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"423d4617f05356797d3088a5d5f7613d15710eea", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

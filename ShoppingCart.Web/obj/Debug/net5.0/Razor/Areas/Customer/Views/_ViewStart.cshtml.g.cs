@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\Areas\Customer\Views\_ViewImports.cshtml"
-using ShoppingCart.Web;
+using ShoppingCart.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Web\Areas\Customer\Views\_ViewImports.cshtml"
-using ShoppingCart.Web.Models;
+using ShoppingCart.Web;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Areas/Customer/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"252f8ed6d07a797f320cc5daf13b2caffddc43a0", @"/Areas/Customer/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f11e744df4d0d7aa0bc60f99939095332c3881c0", @"/Areas/Customer/Views/_ViewImports.cshtml")]
     public class Areas_Customer_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
