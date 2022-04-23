@@ -1817,6 +1817,10 @@
         }
       },
       "ShoppingCart.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
+        },
         "runtime": {
           "ShoppingCart.Models.dll": {}
         },

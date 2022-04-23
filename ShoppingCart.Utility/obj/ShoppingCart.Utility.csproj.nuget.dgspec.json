@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj",
         "projectName": "ShoppingCart.Utility",
-        "projectPath": "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj",
-        "packagesPath": "C:\\Users\\ronika_das\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Utility\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ronika_das\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,7 +40,21 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
@@ -62,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

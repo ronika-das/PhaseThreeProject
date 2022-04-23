@@ -2029,6 +2029,10 @@
       "ShoppingCart.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
+        },
         "compile": {
           "bin/placeholder/ShoppingCart.Models.dll": {}
         },
@@ -7186,19 +7190,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ronika_das\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Web\\ShoppingCart.Web.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Web\\ShoppingCart.Web.csproj",
       "projectName": "ShoppingCart.Web",
-      "projectPath": "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Web\\ShoppingCart.Web.csproj",
-      "packagesPath": "C:\\Users\\ronika_das\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.Web\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Web\\ShoppingCart.Web.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ronika_das\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7212,8 +7216,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ronika_das\\source\\repos\\HealthCareProjectPhase2\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj"
+            "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj"
             }
           }
         }
@@ -7271,7 +7275,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

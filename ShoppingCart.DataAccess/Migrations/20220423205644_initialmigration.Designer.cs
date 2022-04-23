@@ -9,7 +9,7 @@ using ShoppingCart.DataAccess.Data;
 namespace ShoppingCart.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220423070205_initialmigration")]
+    [Migration("20220423205644_initialmigration")]
     partial class initialmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
