@@ -1,0 +1,15 @@
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\bin\Debug\net5.0\ShoppingCart.Utility.deps.json
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\bin\Debug\net5.0\ShoppingCart.Utility.runtimeconfig.json
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\bin\Debug\net5.0\ShoppingCart.Utility.runtimeconfig.dev.json
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\bin\Debug\net5.0\ShoppingCart.Utility.dll
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\bin\Debug\net5.0\ref\ShoppingCart.Utility.dll
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\bin\Debug\net5.0\ShoppingCart.Utility.pdb
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.csproj.AssemblyReference.cache
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.AssemblyInfoInputs.cache
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.AssemblyInfo.cs
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.csproj.CoreCompileInputs.cache
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.dll
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ref\ShoppingCart.Utility.dll
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.pdb
+C:\Users\ronika_das\source\repos\HealthCareProjectPhase2\ShoppingCart.Utility\obj\Debug\net5.0\ShoppingCart.Utility.genruntimeconfig.cache
