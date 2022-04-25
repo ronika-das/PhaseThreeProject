@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj": {}
+    "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj",
         "projectName": "ShoppingCart.DataAccess",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj"
               }
             }
           }
@@ -44,6 +44,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -84,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj",
         "projectName": "ShoppingCart.Models",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Models\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

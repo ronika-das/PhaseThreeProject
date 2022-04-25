@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8twyqdViAcksHzEeUPMI//aF5wtcC8iXxy/m5iMd8kXPLgym+io5jTk/UKo/i192ljDAtNdRKh//liYpBHud3w==",
+  "dgSpecHash": "NImwdSdTtVMMjgzOASMAoyq9rQAp7BNLXyWjQ6fotwDYtue9RBh4lgEfYcwmtvo1hukiYx/Dr97wIWJmcaDLXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

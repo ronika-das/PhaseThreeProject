@@ -310,3 +310,12 @@ C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ref
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ShoppingCart.Web.pdb
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ShoppingCart.Web.genruntimeconfig.cache
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ref\ShoppingCart.Web.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\CreateUpdate.cshtml.g.cs
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Delete.cshtml.g.cs
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ShoppingCart.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Medicine\Index.cshtml.g.cs
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Medicine\CreateUpdate.cshtml.g.cs

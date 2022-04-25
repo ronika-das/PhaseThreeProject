@@ -6,14 +6,22 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<div class="container p-4"
+    <div class="row p-3"
+    <div class="col-6">
+        <h2 class="text-primary">List Of Categories</h2>
+    </div>
+    <div class="col-6 text-end">
+        <a class="btn btn-primary" asp-action="CreateUpdate" asp-controller="category">Create New</a>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped" style="width:100%">
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Description</th>   
+            <th>Category Name</th>
+            <th>Description</th>  
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -21,18 +29,15 @@
         {
 
             <tr>
-                <th>@item.Name</th>
-                <th>@item.Description</th>
-            </tr>
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id=@item.Id}) |
-                    @Html.ActionLink("Details", "Details", new { id = @item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = @item.Id })
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+            
+         
+           
+                <td role="group">
+                    <a asp-action="CreateUpdate" asp-controller="category" asp-route-id="@item.Id"><i class="bi bi-pencil-square"/>Edit</a>
+                    <a asp-action="Delete" asp-controller="category" asp-route-id="@item.Id"><i class="bi bi-trash"/>Delete</a>
+                   
                 </td>
             </tr>
         }

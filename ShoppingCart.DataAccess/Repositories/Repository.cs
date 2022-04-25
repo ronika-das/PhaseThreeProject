@@ -30,6 +30,14 @@ namespace ShoppingCart.DataAccess.Repositories
             _dbSet.Remove(entity);
         }
 
+        public void DeleteData(T entity)
+        {
+            _dbSet.Remove(entity);
+        }
+        public void Update(T entity)
+        {
+            _dbSet.Update(entity);
+        }
         public void DeleteRange(IEnumerable<T> entity)
         {
             _dbSet.RemoveRange(entity);
@@ -53,7 +61,8 @@ namespace ShoppingCart.DataAccess.Repositories
             return query.ToList();
         }
 
-        public T GetT(Expression<Func<T,bool>>predicate, string? includeProperties=null)
+
+        public T GetT(Expression<Func<T,bool>> predicate, string includeProperties=null)
         {
             IQueryable<T> query = _dbSet;
             query = query.Where(predicate);

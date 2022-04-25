@@ -13,5 +13,7 @@ namespace ShoppingCart.DataAccess.Repositories
         {
 
         }
+
+        //void Update(object medicine);
     }
 }
