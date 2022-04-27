@@ -271,9 +271,7 @@ C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\run
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\ShoppingCart.DataAccess.dll
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\ShoppingCart.Models.dll
-C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\ShoppingCart.DataAccess.pdb
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\ShoppingCart.Models.pdb
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ShoppingCart.Web.csproj.AssemblyReference.cache
 C:\Users\DELL\source\repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ShoppingCart.Web.GeneratedMSBuildEditorConfig.editorconfig
@@ -330,3 +328,5 @@ C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Mic
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\staticwebassets\ShoppingCart.Web.StaticWebAssets.xml
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Healthcare.DataAccess.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Healthcare.DataAccess.pdb

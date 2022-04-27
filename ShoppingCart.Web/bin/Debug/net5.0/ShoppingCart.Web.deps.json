@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ShoppingCart.Web/1.0.0": {
         "dependencies": {
+          "Healthcare.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Identity.UI": "5.0.13",
           "Microsoft.EntityFrameworkCore": "5.0.13",
           "Microsoft.EntityFrameworkCore.Design": "5.0.13",
@@ -40,7 +41,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "5.0.13",
           "Microsoft.Extensions.Identity.Stores": "5.0.13",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
-          "ShoppingCart.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -2522,7 +2522,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "ShoppingCart.DataAccess/1.0.0": {
+      "Healthcare.DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.13",
           "Microsoft.AspNetCore.Identity.UI": "5.0.13",
@@ -2534,10 +2534,10 @@
           "ShoppingCart.Models": "1.0.0"
         },
         "runtime": {
-          "ShoppingCart.DataAccess.dll": {}
+          "Healthcare.DataAccess.dll": {}
         },
         "compile": {
-          "ShoppingCart.DataAccess.dll": {}
+          "Healthcare.DataAccess.dll": {}
         }
       },
       "ShoppingCart.Models/1.0.0": {
@@ -5626,7 +5626,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "ShoppingCart.DataAccess/1.0.0": {
+    "Healthcare.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -18,7 +18,7 @@ namespace ShoppingCart.DataAccess.Repositories
 
         }
 
-        public void Update(Medicine medicine)
+        public new void Update(Medicine medicine)
         {
             var medicineDb = _context.Medicines.FirstOrDefault(x => x.Id == medicine.Id);
             if(medicineDb != null)

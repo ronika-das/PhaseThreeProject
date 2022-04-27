@@ -6087,9 +6087,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj",
-      "projectName": "ShoppingCart.Utility",
-      "projectPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Utility\\ShoppingCart.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Utility\\Healthcare.Utility.csproj",
+      "projectName": "Healthcare.Utility",
+      "projectPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Utility\\Healthcare.Utility.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Utility\\obj\\",
       "projectStyle": "PackageReference",

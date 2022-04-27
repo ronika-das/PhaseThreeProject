@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ShoppingCart.Models\ShoppingCart.Models.csproj" />
+    <ProjectReference Include="..\ShoppingCart.Models\Healthcare.Models.csproj" />
   </ItemGroup>
 
 </Project>

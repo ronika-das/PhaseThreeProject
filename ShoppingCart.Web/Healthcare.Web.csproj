@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ShoppingCart.DataAccess\ShoppingCart.DataAccess.csproj" />
+    <ProjectReference Include="..\ShoppingCart.DataAccess\Healthcare.DataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>

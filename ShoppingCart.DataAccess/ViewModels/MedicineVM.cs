@@ -27,10 +27,13 @@ namespace ShoppingCart.DataAccess.ViewModels
     {
         public Medicine Medicine { get; set; } = new Medicine();
 
-        [ValidateNever]
-        public IEnumerable<Medicine> Medicines { get; set; } = new List<Medicine>();
-        [ValidateNever]
+
+      
+        public IEnumerable<Medicine> medicines { get; set; } = new List<Medicine>();
+       // Debug.log(medicines);
+
         public IEnumerable<SelectListItem> Categories { get; set; }
     }
+
 }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bo/aRXVZsDLgDxOSj5pQkuNteEYm/30Vge0+EwenI2rqNTXOrSw2hwQ3/LLYFuU7m9vlR8hKLKA4VpnU64oiJA==",
+  "dgSpecHash": "8xexaHdIPkpMqIJMydgBjWycG/9Urj0AA208moUoTZPeEAOtLJBBirHAerh8j+TS+YYlDazHGoQkhcykc4m/mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\ShoppingCart.Models.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Models\\Healthcare.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
