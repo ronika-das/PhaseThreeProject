@@ -319,3 +319,14 @@ C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\New
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ShoppingCart.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Medicine\Index.cshtml.g.cs
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Medicine\CreateUpdate.cshtml.g.cs
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\staticwebassets\ShoppingCart.Web.StaticWebAssets.xml
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

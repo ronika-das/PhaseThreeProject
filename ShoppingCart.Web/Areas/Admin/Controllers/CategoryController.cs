@@ -19,11 +19,19 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             _unitofWork = unitofWork;
         }
 
+        public IUnitOfWork Get_unitofWork()
+        {
+            return _unitofWork;
+        }
+
+        [HttpGet]
+        [Route("index")]
         public IActionResult Index()
         {
             CategoryVM categoryVM = new CategoryVM();
             categoryVM.categories = _unitofWork.Category.GetAll();
             return View(categoryVM);
+
         }
 
         [HttpGet]
