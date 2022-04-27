@@ -174,3 +174,4 @@ C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ref
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\HealthCare.Web.pdb
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\HealthCare.Web.genruntimeconfig.cache
 C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\ref\HealthCare.Web.dll
+C:\Users\DELL\Source\Repos\PhaseTwoProject\ShoppingCart.Web\obj\Debug\net5.0\Razor\Areas\Admin\Views\Medicine\Delete.cshtml.g.cs

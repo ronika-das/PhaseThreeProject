@@ -96,6 +96,38 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
             }
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var medicine = _unitofWork.Medicine.GetT(x => x.Id == id);
+            if (medicine == null)
+            {
+                return NotFound();
+            }
+            return View(medicine);
+
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteData(int? id)
+        {
+            var medicine = _unitofWork.Medicine.GetT(x => x.Id == id);
+            if (medicine == null)
+            {
+                return NotFound();
+            }
+            _unitofWork.Medicine.Delete(medicine);
+            _unitofWork.Save();
+            TempData["success"] = "Medicine Deleted Done!";
+            return RedirectToAction("Index");
+        }
+
+
     }
 }
 

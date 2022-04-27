@@ -28,6 +28,13 @@
             <span asp-validation-for="Medicine.CategoryId" class="text-danger"></span>
         </div> 
 
+        
+        <div class="row mb-3">
+            <label asp-for="Medicine.Description"></label>
+            <input asp-for="Medicine.Description" class="form-control" />
+            <span asp-validation-for="Medicine.Description" class="text-danger"></span>
+        </div> 
+
         @if (Model.Medicine == null || Model.Medicine.Id == 0)
         {
             <button class="btn btn-primary" type="submit">Create</button>
