@@ -861,6 +861,18 @@
           "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/5.0.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.13"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/5.0.13": {
         "type": "package",
         "dependencies": {
@@ -3250,27 +3262,27 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Healthcare.DataAccess/1.0.0": {
+      "ShoppingCart.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Healthcare.Models": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.13",
           "Microsoft.AspNetCore.Identity.UI": "5.0.13",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.13",
           "Microsoft.EntityFrameworkCore.SQLServer": "5.0.13",
-          "Microsoft.Extensions.Identity.Stores": "5.0.13"
+          "Microsoft.Extensions.Identity.Stores": "5.0.13",
+          "ShoppingCart.Models": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Healthcare.DataAccess.dll": {}
+          "bin/placeholder/ShoppingCart.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Healthcare.DataAccess.dll": {}
+          "bin/placeholder/ShoppingCart.DataAccess.dll": {}
         }
       },
-      "Healthcare.Models/1.0.0": {
+      "ShoppingCart.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -3281,10 +3293,10 @@
           "Microsoft.Extensions.Identity.Stores": "5.0.13"
         },
         "compile": {
-          "bin/placeholder/Healthcare.Models.dll": {}
+          "bin/placeholder/ShoppingCart.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Healthcare.Models.dll": {}
+          "bin/placeholder/ShoppingCart.Models.dll": {}
         }
       }
     }
@@ -4326,6 +4338,20 @@
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.5.0.13.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/5.0.13": {
+      "sha512": "yjF1UJiX6dDABiN15cyXs17r4OE9k6KH7iwODVejU1Ot+H49itWmvGOv/gm2UQn2qlZJcBI2A7KvqMZ9gz0A/A==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/5.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.5.0.13.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.13": {
@@ -10156,27 +10182,28 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Healthcare.DataAccess/1.0.0": {
+    "ShoppingCart.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../ShoppingCart.DataAccess/Healthcare.DataAccess.csproj",
-      "msbuildProject": "../ShoppingCart.DataAccess/Healthcare.DataAccess.csproj"
+      "path": "../ShoppingCart.DataAccess/ShoppingCart.DataAccess.csproj",
+      "msbuildProject": "../ShoppingCart.DataAccess/ShoppingCart.DataAccess.csproj"
     },
-    "Healthcare.Models/1.0.0": {
+    "ShoppingCart.Models/1.0.0": {
       "type": "project",
-      "path": "../ShoppingCart.Models/Healthcare.Models.csproj",
-      "msbuildProject": "../ShoppingCart.Models/Healthcare.Models.csproj"
+      "path": "../ShoppingCart.Models/ShoppingCart.Models.csproj",
+      "msbuildProject": "../ShoppingCart.Models/ShoppingCart.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Healthcare.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.13",
       "Microsoft.EntityFrameworkCore >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.13",
+      "Microsoft.EntityFrameworkCore.InMemory >= 5.0.13",
       "Microsoft.EntityFrameworkCore.SQLServer >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.13",
       "Microsoft.Extensions.Identity.Stores >= 5.0.13",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
+      "ShoppingCart.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10185,11 +10212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Web\\HealthCare.Web.csproj",
-      "projectName": "HealthCare.Web",
-      "projectPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Web\\HealthCare.Web.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\PhaseFourProject\\ShoppingCart.Web\\ShoppingCart.Web.csproj",
+      "projectName": "ShoppingCart.Web",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseFourProject\\ShoppingCart.Web\\ShoppingCart.Web.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.Web\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\PhaseFourProject\\ShoppingCart.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10206,8 +10233,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\Healthcare.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Source\\Repos\\PhaseTwoProject\\ShoppingCart.DataAccess\\Healthcare.DataAccess.csproj"
+            "C:\\Users\\DELL\\source\\repos\\PhaseFourProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\DELL\\source\\repos\\PhaseFourProject\\ShoppingCart.DataAccess\\ShoppingCart.DataAccess.csproj"
             }
           }
         }
@@ -10233,6 +10260,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.13, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[5.0.13, )"
           },

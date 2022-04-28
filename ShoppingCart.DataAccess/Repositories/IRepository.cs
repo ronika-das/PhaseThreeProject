@@ -14,6 +14,8 @@ namespace ShoppingCart.DataAccess.Repositories
 
         T GetT(Expression<Func<T,bool>> predicate, string? includeProperties=null);
         void Add(T entity);
+
+      //T Add(T entity);
         void Delete(T entity);
 
         void Update(T entity);

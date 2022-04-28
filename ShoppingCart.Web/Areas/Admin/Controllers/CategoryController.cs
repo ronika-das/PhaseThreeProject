@@ -67,7 +67,7 @@ namespace ShoppingCart.Web.Areas.Admin.Controllers
                 if(vm.Category.Id==0)
                 { 
                     _unitofWork.Category.Add(vm.Category);
-                    TempData["success"] = "Category Created Done";
+                TempData["success"] = "Category Created Done";
                 }
                 else
                 {
