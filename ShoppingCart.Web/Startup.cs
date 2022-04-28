@@ -37,6 +37,11 @@ namespace ShoppingCart.Web
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddRazorPages();
             services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddEntityFrameworkInMemoryDatabase();
+         //   services.AddDbContext<At>(opt => opt.UseInMemoryDatabase());
+
+           // services.AddMvc();
+
 
 
         }

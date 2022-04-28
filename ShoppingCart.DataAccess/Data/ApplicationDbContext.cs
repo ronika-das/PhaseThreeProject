@@ -17,11 +17,11 @@ namespace ShoppingCart.DataAccess.Data
 
 
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server='DESKTOP-JCFHSDL';Database=MedicalDB;Integrated Security=true;");
-            //optionsBuilder.UseSqlServer("Server=W10CBMFL13;Database=DellDB;User Id=sa;Password=sa@123456;");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Server='DESKTOP-JCFHSDL';Database=MedicalDB;Integrated Security=true;");
+        //    //optionsBuilder.UseSqlServer("Server=W10CBMFL13;Database=DellDB;User Id=sa;Password=sa@123456;");
+        //}
         public DbSet<Category> Categories { get; set; }
         public DbSet<Medicine> Medicines { get; set; }
     }

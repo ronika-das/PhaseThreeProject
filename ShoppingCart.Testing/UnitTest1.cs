@@ -92,10 +92,13 @@ namespace ShoppingCart.Testing
         [Test]
         public void addCategory1()
         {
-            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();//.UseInMemoryDatabase(Guid.NewGuid().ToString("N"));//.UseInMemoryDatabase>;
-                                                                                     // optionsBuilder.UseInMemoryDatabase();
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>().UseInMemoryDatabase(databaseName: "MedicineDataBase"); 
+            //.UseInMemoryDatabase(Guid.NewGuid().ToString("N"));//.UseInMemoryDatabase>;
+            // optionsBuilder.UseInMemoryDatabase();
             var _dbContext = new ApplicationDbContext(optionsBuilder.Options);
 
+           // var options = new DbContextOptionsBuilder<ApplicationDbContext>().UseInMemoryDatabase(databaseName: "Test22").Options;
+            //var _dbContext = new ApplicationDbContext(options);
             UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
 
             var sut = new CategoryRepository(_dbContext);
