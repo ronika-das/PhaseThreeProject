@@ -17,113 +17,109 @@ namespace ShoppingCart.Testing
         [SetUp]
         public void Setup()
         {
-           
-
           //  Medicine medicine = new Medicine() { Name="ABC",Description="For XYZ",Price=10,CategoryId=categoryId};
         }
 
-        [Test]
-        public void addCategory()
+        private ApplicationDbContext CreateDbContext()
         {
-            // var mockContext = new Mock<ApplicationDbContext>();
-            // var dbContext = ApplicationDbContext();
-
-            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();//.UseInMemoryDatabase>;
-           // optionsBuilder.UseInMemoryDatabase();
-            var _dbContext = new ApplicationDbContext(optionsBuilder.Options);
-
-            UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
-          //  CategoryController categoryController = new CategoryController(unitOfWork);
-
-
-
-            Category category = new Category();
-            category.Name = "Test1";
-            category.Description = "Test1 Desciption";
-
-            Category category2 = new Category();
-            category2.Name = "Test2";
-            category2.Description = "Test2 Desciption";
-
-            CategoryVM categoryVM = new CategoryVM();
-            CategoryVM categoryVM1 = new CategoryVM();
-
-
-            categoryVM.categories = unitOfWork.Category.GetAll();
-
-            //Get current count of records
-            int id11 = 0;
-            foreach (var item in categoryVM.categories)
-            {
-                id11 = item.Id;
-            }
-
-
-            unitOfWork.Category.Add(category);
-            unitOfWork.Category.Add(category2);
-
-
-
-
-            
-            categoryVM1.categories = unitOfWork.Category.GetAll();
-
-
-            //var something=categoryController.CreateUpdate(categoryVM);
-            //            Console.Write(categoryVM1.categories);
-            int id22=0;
-            foreach (var item in categoryVM1.categories)
-            {
-                id22 = item.Id;
-            }
-                 
-           
-            
-            Assert.AreEqual(id11+2, id22);
-            //var item in Model.categories
-            //CategoryRepository   cr= new CategoryRepository();
-            ////UnitOfWork _unitofWork;
-            //UnitOfWork _unitofWork = new UnitOfWork();
-
-            //_unitofWork.category.Add(categoryVM.Category);
-
-        }
-
-        [Test]
-        public void addCategory1()
-        {
-            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>().UseInMemoryDatabase(databaseName: "MedicineDataBase"); 
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>().UseInMemoryDatabase(databaseName: "MedicineDataBase");
             //.UseInMemoryDatabase(Guid.NewGuid().ToString("N"));//.UseInMemoryDatabase>;
             // optionsBuilder.UseInMemoryDatabase();
             var _dbContext = new ApplicationDbContext(optionsBuilder.Options);
+            return _dbContext;
+        }
 
-           // var options = new DbContextOptionsBuilder<ApplicationDbContext>().UseInMemoryDatabase(databaseName: "Test22").Options;
-            //var _dbContext = new ApplicationDbContext(options);
+        [Test]
+        public void addCategory()  //ToTest that addition of Category record
+        {
+            var _dbContext = CreateDbContext();
             UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
-
             var sut = new CategoryRepository(_dbContext);
-            var result1 = sut.GetAll();
-            int id11 = 0;
-            foreach (var item in result1)
-            {
-                id11 = item.Id;
-            }
-
             var category = new Category { Name = "Test1", Description = "Test1 Description" };
             sut.Add(category);
             _dbContext.SaveChanges();
             var result = sut.GetAll();
-            //result.ToString();
             int id22 = 0;
             foreach (var item in result)
             {
                 id22 = item.Id;
             }
+            Assert.AreEqual(1, id22);
+            _dbContext.Dispose();
+        }
 
-            Assert.AreEqual(id11+1, id22);
+        [Test]
+        public void UpdateCategory() //Test Update of Category record
+        {
+            var _dbContext = CreateDbContext();
+            UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
+            var sut = new CategoryRepository(_dbContext);
+            var category = new Category { Name = "Test1", Description = "Test1 Description" };
+            sut.Add(category);
+            _dbContext.SaveChanges();
+            category.Description = "Test1 Description Updated";
+            sut.Update(category);
+            _dbContext.SaveChanges();
+
+
+            var check= unitOfWork.Category.GetT(p => p.Id == category.Id);
+            Assert.AreEqual("Test1 Description Updated", check.Description);
+            _dbContext.Dispose();
+        }
+
+        [Test]
+        public void DeleteCategory() //Test Deletion of Category record
+        {
+            var _dbContext = CreateDbContext();
+            UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
+            var sut = new CategoryRepository(_dbContext);
+            var category = new Category { Name = "Test1", Description = "Test1 Description" };
+            var result = sut.AddT(category);
+            _dbContext.SaveChanges();
+           
+            sut.Delete(category);
+            _dbContext.SaveChanges();
+
+
+            var isExists = unitOfWork.Category.GetT(p => p.Id == result.Id);
+
+            //Assert.IsFalse(isExists);
+            Assert.AreEqual(null, isExists);
+            _dbContext.Dispose();
+        }
+
+
+
+        [Test]
+        public void addMedicine()
+        {
+            var _dbContext = CreateDbContext();
+            UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
+            //Add Category Record
+            var sut = new CategoryRepository(_dbContext);
+            var category = new Category { Name = "Test1", Description = "Test1 Description" };
+            sut.Add(category);
+            int id22 = 0;
+            var result = sut.GetAll();
+            foreach (var item in result)
+            {
+                id22 = item.Id;
+            }
+
+            var med = new MedicineRepository(_dbContext);
+            var medicine = new Medicine { Name = "Test1", Description = "Test1 Description",Price=10, CategoryId=id22};
+            med.Add(medicine);
+            _dbContext.SaveChanges();
+            var result1 = med.GetAll();
+            int id33 = 0;
+            foreach (var item in result1)
+            {
+                id33 = item.CategoryId;
+            }
+            Assert.AreEqual(id33, id22);
             _dbContext.Dispose();
 
-
         }
+
     }
 }

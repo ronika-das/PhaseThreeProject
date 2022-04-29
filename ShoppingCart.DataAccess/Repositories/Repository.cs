@@ -25,6 +25,14 @@ namespace ShoppingCart.DataAccess.Repositories
         {
             _dbSet.Add(entity);
         }
+
+        public T AddT(T entity)
+        {
+            var result= _dbSet.Add(entity);
+
+            return result.Entity;
+        }
+
         public void Delete(T entity)
         {
             _dbSet.Remove(entity);
@@ -76,6 +84,11 @@ namespace ShoppingCart.DataAccess.Repositories
             return query.FirstOrDefault();
         }
 
+
+        //public T GetById(T entity)
+        //{
+        //    return _dbset.<entity>.include("category").first(p => p.productid == id);
+        //}
 
     }
 }
