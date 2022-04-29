@@ -29,5 +29,10 @@ namespace ShoppingCart.DataAccess.Repositories
 
             }
         }
+
+        public Medicine GetById(int id)
+        {
+            return _context.Medicines.FirstOrDefault(x => x.Id == id);
+        }
     }
 }

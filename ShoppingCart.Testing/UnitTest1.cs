@@ -88,8 +88,6 @@ namespace ShoppingCart.Testing
             _dbContext.Dispose();
         }
 
-
-
         [Test]
         public void addMedicine()
         {
@@ -121,5 +119,66 @@ namespace ShoppingCart.Testing
 
         }
 
+
+        [Test]
+        public void updateMedicine()
+        {
+            var _dbContext = CreateDbContext();
+            UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
+            //Add Category Record
+            var sut = new CategoryRepository(_dbContext);
+            var category = new Category { Name = "Test1", Description = "Test1 Description" };
+            sut.Add(category);
+            int id22 = 0;
+            var result = sut.GetAll();
+            foreach (var item in result)
+            {
+                id22 = item.Id;
+            }
+
+            var med = new MedicineRepository(_dbContext);
+            var medicine = new Medicine { Name = "Test1", Description = "Test1 Description", Price = 10, CategoryId = id22 };
+            med.Add(medicine);
+            _dbContext.SaveChanges();
+
+            medicine.Price = 20;
+            med.Update(medicine);
+            var result2 = med.GetById(medicine.Id);
+
+
+            Assert.AreEqual(20, result2.Price);
+            _dbContext.Dispose();
+
+        }
+
+        [Test]
+        public void deleteMedicine()
+        {
+            var _dbContext = CreateDbContext();
+            UnitOfWork unitOfWork = new UnitOfWork(_dbContext);
+            //Add Category Record
+            var sut = new CategoryRepository(_dbContext);
+            var category = new Category { Name = "Test1", Description = "Test1 Description" };
+            sut.Add(category);
+            int id22 = 0;
+            var result = sut.GetAll();
+            foreach (var item in result)
+            {
+                id22 = item.Id;
+            }
+
+            var med = new MedicineRepository(_dbContext);
+            var medicine = new Medicine { Name = "Test1", Description = "Test1 Description", Price = 10, CategoryId = id22 };
+            var medres=med.AddT(medicine);
+            _dbContext.SaveChanges();
+
+            med.Delete(medicine);
+            _dbContext.SaveChanges();
+
+            var isExists = unitOfWork.Medicine.GetT(p => p.Id == medres.Id);
+            Assert.AreEqual(null, isExists);
+            _dbContext.Dispose();
+
+        }
     }
 }
