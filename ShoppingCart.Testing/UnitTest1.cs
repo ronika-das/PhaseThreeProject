@@ -84,7 +84,7 @@ namespace ShoppingCart.Testing
             var isExists = unitOfWork.Category.GetT(p => p.Id == result.Id);
 
             //Assert.IsFalse(isExists);
-            Assert.AreEqual(null, isExists);
+            Assert.AreEqual(null, isExists);        
             _dbContext.Dispose();
         }
 
